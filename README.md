@@ -2,6 +2,17 @@
 
 > By Aditya Kadali
 
+## Screenshots
+
+- Desktop
+  ![Desktop-1](./screenshots/desktop-1.png)
+
+  ![Desktop-2](./screenshots/Desktop-2.png)
+
+- Mobile
+
+  ![Mobile](./screenshots/Moble-1.png)
+
 ## Built with:
 
 - Semantic HTML5
@@ -11,16 +22,6 @@
 
 - [Live demo](https://paytm-clne.netlify.app/)
 - [Source](https://github.com/Adityakadali/paytm-clone)
-
-## Screenshots
-
-- Desktop
-  ![Desktop-1](./screenshots/desktop-1.png)
-
-  ![Desktop-2](./screenshots/Desktop-2.png)
-
-- Mobile
-  ![Mobile](./screenshots/Moble-1.png)
 
 ## Time taken:
 
