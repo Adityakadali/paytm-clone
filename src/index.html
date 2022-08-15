@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paytm</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-['Open_Sans']">
+    <header class="shadow-lg">
+      <nav
+        class="container px-2 h-16 md:h-20 mx-auto flex items-center justify-between"
+      >
+        <img class="h-10 lg:h-12" src="./images/paytm_logo.png" alt="logo" />
+        <ul class="hidden lg:flex gap-6">
+          <li class="font-bold text-base">Paytm for consumers</li>
+          <li class="font-bold text-base">Paytm for Business</li>
+          <li class="font-bold text-base">Company</li>
+          <li class="font-bold text-base">Investor relations</li>
+          <li class="font-bold text-base">Careers</li>
+        </ul>
+
+        <!-- button group -->
+        <div class="group">
+          <button
+            class="bg-pysky-100 pl-6 rounded-full text-white flex items-center group-hover:bg-pyblue-100"
+          >
+            <span class="font-['Open_Sans'] font-bold pr-2 peer">Sign In</span>
+
+            <i
+              class="bx bxs-user lg:text-xl text-white bg-pyblue-100 p-2 rounded-full group-hover:bg-pysky-100"
+            ></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <div class="hidden md:block mx-auto bg-slate-200 p-2">
+      <p class="text-center">
+        No Wallet KYC Required <span class="text-xl">😊</span> to pay using UPI
+        on Paytm.
+        <a href="" class="font-bold">Learn more.</a>
+      </p>
+    </div>
+
+    <!-- hero section -->
+
+    <section id="hero">
+      <div
+        class="container flex flex-col justify-center gap-8 lg:flex-row-reverse mx-auto px-5 py-10 md:py-20"
+      >
+        <div class="lg:w-1/2 max-w-md mx-auto">
+          <img
+            class="max-w-full pointer-events-none"
+            src="./images/hero-custom.png"
+            alt=""
+          />
+        </div>
+        <div class="lg:w-1/2 max-w-md">
+          <img
+            class="hidden lg:block lg:mt-10 h-12 max-w-fit md:h-14 md:max-w-fit pointer-events-none"
+            src="./images/hero-logo.png"
+            alt=""
+          />
+          <h1 class="text-2xl md:text-4xl lg:text-5xl font-bold mt-4 md:mt-6">
+            India's Most-loved Payments App
+          </h1>
+          <p class="mt-4">
+            Recharge & pay bills, book flights & movie tickets, open a savings
+            account, invest in stocks & mutual funds, and do a lot more.
+          </p>
+          <button
+            class="flex items-center gap-3 mt-8 text-white bg-black py-2 px-6 rounded-full font-bold mx-auto lg:ml-0 hover:text-black hover:bg-white border border-black border-solid"
+          >
+            Download Paytm app
+            <i class="bx bxl-play-store text-xl"></i>
+            <i class="bx bxl-apple text-xl"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- recharge section -->
+    <section class="bg-pysky-100" id="bills">
+      <div class="container mx-auto px-5 py-16">
+        <h1 class="text-2xl md:text-3xl lg:text-4xl text-white font-bold">
+          Recharge & Pay Bills on Paytm.
+        </h1>
+        <!-- card-group -->
+        <div class="flex mt-5 flex-wrap mx-auto justify-around gap-y-4">
+          <!-- card-1 -->
+          <div class="card">
+            <div class="">
+              <img
+                class="h-16"
+                src="./images/bills/recharge.png"
+                alt="recharge"
+              />
+            </div>
+            <p
+              class="after:content-['>'] after:font-bold font-bold text-white mt-3"
+            >
+              Recharge <br />
+              Prepaid <br />
+              Mobile
+            </p>
+          </div>
+          <!-- card-2-->
+          <div class="card">
+            <div class="">
+              <img class="h-16" src="./images/bills/rent.png" alt="rent" />
+            </div>
+            <p
+              class="after:content-['>'] after:font-bold font-bold text-white mt-3"
+            >
+              Pay <br />
+              Rent <br />
+              Payment
+            </p>
+          </div>
+          <!-- card-3 -->
+          <div class="card">
+            <div class="">
+              <img
+                class="h-16"
+                src="./images/bills/electricity.png"
+                alt="electricity"
+              />
+            </div>
+            <p
+              class="after:content-['>'] after:font-bold font-bold text-white mt-3"
+            >
+              Pay <br />
+              Electricity <br />
+              Bill
+            </p>
+          </div>
+          <!-- card-4 -->
+          <div class="card">
+            <div class="">
+              <img class="h-16" src="./images/bills/DTH.png" alt="DTH" />
+            </div>
+            <p
+              class="after:content-['>'] after:font-bold font-bold text-white mt-3"
+            >
+              Recharge <br />
+              DTH <br />
+              Connection
+            </p>
+          </div>
+          <!-- card-5 -->
+          <div class="card">
+            <div class="">
+              <img class="h-16" src="./images/bills/Gas.png" alt="Gas" />
+            </div>
+            <p
+              class="after:content-['>'] after:font-bold font-bold text-white mt-3"
+            >
+              Book <br />
+              Gas <br />
+              Cylinder
+            </p>
+          </div>
+          <!-- card-6 -->
+          <div class="card">
+            <div class="">
+              <img
+                class="h-16"
+                src="./images/bills/Credit card.png"
+                alt="Credit card"
+              />
+            </div>
+            <p
+              class="after:content-['>'] after:font-bold font-bold text-white mt-3"
+            >
+              Pay <br />
+              Credit <br />
+              Card Bill
+            </p>
+          </div>
+          <!-- card-7 -->
+          <div class="card">
+            <div class="">
+              <img
+                class="h-16"
+                src="./images/bills/Credit card.png"
+                alt="Credit card"
+              />
+            </div>
+            <p
+              class="after:content-['>'] after:font-bold font-bold text-white mt-3"
+            >
+              All <br />
+              Payment <br />
+              Services
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section-2 -->
+    <section class="bg-pyblue-100" id="booking">
+      <div class="container mx-auto px-5 py-16">
+        <h1 class="text-2xl md:text-3xl lg:text-4xl text-white font-bold">
+          Book & Buy on Paytm.
+        </h1>
+        <!-- card-group -->
+        <div class="flex mt-5 flex-wrap mx-auto justify-around gap-y-4">
+          <!-- card-1 -->
+          <div class="hover:bg-pyblue-200 card">
+            <div class="">
+              <img
+                class="h-16"
+                src="./images/booking/movies.png"
+                alt="movies"
+              />
+            </div>
+            <p
+              class="after:content-['>'] after:font-bold font-bold text-white mt-3"
+            >
+              Movie <br />
+              Tickets
+            </p>
+          </div>
+          <!-- card-2 -->
+          <div class="hover:bg-pyblue-200 card">
+            <div class="">
+              <img
+                class="h-16"
+                src="./images/booking/flight.png"
+                alt="flights"
+              />
+            </div>
+            <p
+              class="after:content-['>'] after:font-bold font-bold text-white mt-3"
+            >
+              Flight <br />
+              Tickets
+            </p>
+          </div>
+          <!-- card-3` -->
+          <div class="hover:bg-pyblue-200 card">
+            <div class="">
+              <img class="h-16" src="./images/booking/bus.png" alt="flights" />
+            </div>
+            <p
+              class="after:content-['>'] after:font-bold font-bold text-white mt-3"
+            >
+              Bus <br />
+              Tickets
+            </p>
+          </div>
+          <!-- card-4 -->
+          <div class="hover:bg-pyblue-200 card">
+            <div class="">
+              <img class="h-16" src="./images/booking/train.png" alt="trains" />
+            </div>
+            <p
+              class="after:content-['>'] after:font-bold font-bold text-white mt-3"
+            >
+              Train <br />
+              Tickets
+            </p>
+          </div>
+          <!-- card-5 -->
+          <div class="hover:bg-pyblue-200 card">
+            <div class="">
+              <img class="h-16" src="./images/booking/bikes.png" alt="bikes" />
+            </div>
+            <p
+              class="after:content-['>'] after:font-bold font-bold text-white mt-3"
+            >
+              Cars & <br />
+              bikes
+            </p>
+          </div>
+          <!-- card-6 -->
+          <div class="hover:bg-pyblue-200 card">
+            <div class="">
+              <img class="h-16" src="./images/booking/international.png" />
+            </div>
+            <p
+              class="after:content-['>'] after:font-bold font-bold text-white mt-3"
+            >
+              International <br />
+              Flights
+            </p>
+          </div>
+          <!-- card-7 -->
+          <div class="hover:bg-pyblue-200 card">
+            <div class="">
+              <img
+                class="h-16"
+                src="./images/booking/stocks.png"
+                alt="stocks"
+              />
+            </div>
+            <p
+              class="after:content-['>'] after:font-bold font-bold text-white mt-3"
+            >
+              Invest <br />
+              In Stocks
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section-3 -->
+    <section class="bg-slate-200" id="paymentIsntument">
+      <div class="container mx-auto py-16">
+        <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold">
+          Paytm Payment Instruments
+        </h1>
+        <!-- Online payments -->
+        <div
+          class="container bg-white mt-8 rounded-md flex flex-col-reverse justify-around lg:flex-row px-10 py-10 lg:py-20 items-center"
+        >
+          <div class="sm:mt-6">
+            <div class="flex gap-4 items-center">
+              <img class="h-20" src="./images/wallet.png" alt="" />
+              <p class="font-bold">Paytm Wallet</p>
+            </div>
+
+            <h2
+              class="text-2xl md:text-3xl lg:text-4xl max-w-md font-bold mt-4"
+            >
+              The Fastest Way to Pay In-store & Online.
+            </h2>
+            <p class="max-w-md mt-3">
+              Load up your Paytm Wallet for free and make payments in a jiffy at
+              over 21 million stores, websites and apps.
+            </p>
+            <button
+              class="flex items-center gap-3 mt-8 text-white bg-black py-2 px-6 rounded-full font-bold mx-auto lg:ml-0 hover:text-black hover:bg-white border border-black border-solid"
+            >
+              Download Paytm app
+              <i class="bx bxl-play-store text-xl"></i>
+              <i class="bx bxl-apple text-xl"></i>
+            </button>
+          </div>
+          <div class="lg:w-1/2 max-w-md">
+            <img
+              class="max-w-full pointer-events-none mx-auto"
+              src="./images/payment-instrument.png "
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- UPI transfer -->
+        <div
+          class="container bg-white mt-8 rounded-md flex flex-col-reverse justify-around lg:flex-row px-10 py-10 lg:py-20 items-center"
+        >
+          <div class="sm:mt-6">
+            <div class="flex gap-4 items-center">
+              <img class="h-20" src="./images/UPI transfer logo.png" alt="" />
+              <p class="font-bold">
+                UPI <br />
+                Money Transfer
+              </p>
+            </div>
+
+            <h2
+              class="text-2xl md:text-3xl lg:text-4xl max-w-md font-bold mt-4"
+            >
+              Pay anyone directly from your bank account.
+            </h2>
+            <p class="max-w-md mt-3">
+              Pay anyone, everywhere. Make contactless & secure payments
+              in-stores or online using Paytm Wallet or Directly from your Bank
+              Account. Plus, send & receive money from anyone.
+            </p>
+            <button
+              class="flex items-center gap-3 mt-8 text-white bg-black py-2 px-6 rounded-full font-bold mx-auto lg:ml-0 hover:text-black hover:bg-white border border-black border-solid"
+            >
+              Download Paytm app
+              <i class="bx bxl-play-store text-xl"></i>
+              <i class="bx bxl-apple text-xl"></i>
+            </button>
+          </div>
+          <div class="lg:w-1/2 max-w-md">
+            <img
+              class="max-w-full pointer-events-none mx-auto"
+              src="./images/transfer.png "
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- postpaid -->
+        <div
+          class="container bg-white mt-8 rounded-md flex flex-col-reverse justify-around lg:flex-row px-10 py-10 lg:py-20 items-center"
+        >
+          <div class="sm:mt-6">
+            <div>
+              <img class="h-20" src="./images/postpaid logo.png" alt="" />
+            </div>
+
+            <h2
+              class="text-2xl md:text-3xl lg:text-4xl max-w-md font-bold mt-4"
+            >
+              Want it? <br />
+              No more waiting for it.
+            </h2>
+            <p class="max-w-md mt-3">
+              With Paytm Postpaid, your wishlist doesn't have to be on the
+              waitlist. Shop for the things you want today and pay for them next
+              month.
+            </p>
+            <button
+              class="mt-4 bg-pyblue-100 hover:bg-pysky-100 text-white text-lg font-bold px-6 py-2 rounded-full transition-all after:content-['➞'] hover:after:content-['➞'] hover:after:ml-2"
+            >
+              learn more
+            </button>
+          </div>
+          <div class="lg:w-1/2 max-w-md">
+            <img
+              class="max-w-full pointer-events-none mx-auto"
+              src="./images/postpaidhero.png "
+              alt=""
+            />
+          </div>
+        </div>
+
+        <!-- cards -->
+        <div
+          class="container mt-8 flex flex-col lg:flex-row justify-around gap-6"
+        >
+          <div
+            class="bg-white rounded-md w-full lg:w-1/2 px-20 pt-10 lg:pt-14 overflow-clip"
+          >
+            <div class="mt-6">
+              <img class="h-6" src="./images/paytmxHDFC logo.png" alt="" />
+              <h2
+                class="text-2xl md:text-3xl lg:text-4xl max-w-md font-bold mt-8"
+              >
+                Unlimited Cashback <br />
+                Every time
+              </h2>
+              <p class="max-w-full mt-3">
+                Paytm HDFC Bank Select Credit Card. A card with assured Cashback
+                and incredible offers.
+              </p>
+              <img
+                class="max-w-md pointer-events-none mx-auto mt-8"
+                src="./images/paytmhdfcCard.png "
+                alt=""
+              />
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-md w-full lg:w-1/2 px-20 pt-10 lg:pt-14 overflow-clip"
+          >
+            <div class="mt-6">
+              <img class="h-6" src="./images/paytmxSBIlogo.png" alt="" />
+              <h2
+                class="text-2xl md:text-3xl lg:text-4xl max-w-md font-bold mt-8"
+              >
+                India’s Most <br />
+                Sincere Credit Card
+              </h2>
+              <p class="max-w-md mt-3">
+                Paytm SBI Card SELECT - With Intelligent Features & Great
+                Rewards that Never Expire
+              </p>
+              <img
+                class="max-w-full pointer-events-none mx-auto mt-14"
+                src="./images/sbi card.png "
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- payments-bank -->
+    <section class="bg-white">
+      <div class="container mx-auto pt-16">
+        <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold">
+          Financial Services by Paytm
+        </h1>
+        <div
+          class="container rounded-md flex flex-col-reverse justify-around lg:flex-row px-10 py-10 items-center"
+        >
+          <div class="sm:mt-6">
+            <div>
+              <img class="h-10" src="./images/paytm-banklogo.png" alt="" />
+            </div>
+            <h2
+              class="text-2xl md:text-3xl lg:text-4xl max-w-md font-bold mt-8"
+            >
+              India's most sincere bank.
+            </h2>
+            <p class="max-w-md mt-3">
+              Paytm Payments Bank offers secure, transparent and risk-free
+              banking at your fingertips. With instant account opening, virtual
+              debit card and zero balance requirements, experience the future of
+              banking today.
+            </p>
+            <button
+              class="mt-8 bg-pyblue-100 hover:bg-pysky-100 text-white text-lg font-bold px-6 py-4 rounded-md transition-all after:content-['➞'] hover:after:content-['➞'] hover:after:ml-2"
+            >
+              learn more
+            </button>
+          </div>
+          <div class="lg:w-1/2 max-w-md">
+            <img
+              class="max-w-full pointer-events-none mx-auto"
+              src="./images/paytm-bank.png "
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- paytm money -->
+    <section
+      class="bg-slate-100 bg-bottom bg-cover"
+      style="background-image: url('./images/bg-hills.png')"
+    >
+      <div
+        class="container mx-auto rounded-md flex flex-col justify-around lg:flex-row px-10 py-16 items-center"
+      >
+        <div class="lg:w-1/2 max-w-md">
+          <img
+            class="max-w-full pointer-events-none mx-auto"
+            src="./images/paytm-moneyhero.png "
+            alt=""
+          />
+        </div>
+        <div class="sm:mt-6">
+          <div>
+            <img class="h-10" src="./images/paytm-moneylogo.png" alt="" />
+          </div>
+          <h2 class="text-2xl md:text-3xl lg:text-4xl max-w-md font-bold mt-8">
+            Build Long-term Wealth & Achieve your Goals.
+          </h2>
+          <p class="max-w-md mt-3">
+            Investing on Paytm Money is transparent, low-cost and
+            commission-free. Buy stocks & mutual funds that can help you create
+            wealth & realise your dreams.
+          </p>
+          <button
+            class="mt-8 bg-pyblue-100 hover:bg-pysky-100 text-white text-lg font-bold px-6 py-4 rounded-full transition-all after:content-['➞'] hover:after:content-['➞'] hover:after:ml-2"
+          >
+            learn more
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- paytm-isurance -->
+    <section class="bg-white">
+      <div class="container mx-auto pt-16">
+        <div
+          class="container rounded-md flex flex-col-reverse justify-around lg:flex-row px-10 py-10 items-center"
+        >
+          <div class="sm:mt-6">
+            <div>
+              <img class="h-14" src="./images/paytminsurancelogo.jpeg" alt="" />
+            </div>
+            <h2
+              class="text-2xl md:text-3xl lg:text-4xl max-w-md font-bold mt-8"
+            >
+              Insurance made easy.
+            </h2>
+            <p class="max-w-md mt-3">
+              Buying insurance does not have to be tedious, time-consuming &
+              confusing. Paytm Insurance removes the worry of getting insured by
+              making it simple, convenient & easy-to-understand.
+            </p>
+            <button
+              class="mt-8 bg-pyblue-100 hover:bg-pysky-100 text-white text-lg font-bold px-6 py-4 rounded-full transition-all after:content-['➞'] hover:after:content-['➞'] hover:after:ml-2"
+            >
+              learn more
+            </button>
+          </div>
+          <div class="lg:w-1/2 max-w-md">
+            <img
+              class="max-w-full pointer-events-none mx-auto"
+              src="./images/paytm-insurancehero.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- personal loan  -->
+    <section class="bg-slate-100">
+      <div
+        class="container mx-auto rounded-md flex flex-col justify-around lg:flex-row px-10 py-16 items-center"
+      >
+        <div class="lg:w-1/2 max-w-md">
+          <img
+            class="max-w-full pointer-events-none mx-auto"
+            src="./images/personal-loanhero.png "
+            alt=""
+          />
+        </div>
+        <div class="sm:mt-6">
+          <div>
+            <img class="h-10" src="./images/personal-loanlogo.png" alt="" />
+          </div>
+          <h2 class="text-2xl md:text-3xl lg:text-4xl max-w-md font-bold mt-8">
+            Get a Personal Loan in 2 Minutes.
+          </h2>
+          <p class="max-w-md mt-3">
+            Paytm offers India's quickest multi-purpose, hassle-free loan. It is
+            100% digital, transparent and paperless.
+          </p>
+          <button
+            class="mt-8 bg-pyblue-100 hover:bg-pysky-100 text-white text-lg font-bold px-6 py-2 rounded-full transition-all after:content-['➞'] hover:after:content-['➞'] hover:after:ml-2"
+          >
+            learn more
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- business services -->
+    <section class="bg-white">
+      <div class="container mx-auto pt-16">
+        <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold">
+          Business Services by Paytm
+        </h1>
+        <div
+          class="bg-slate-100 mt-8 container rounded-md flex flex-col-reverse justify-around lg:flex-row px-10 py-10 items-center"
+        >
+          <div class="sm:mt-6">
+            <h2
+              class="text-2xl md:text-3xl lg:text-4xl max-w-md font-bold mt-8"
+            >
+              Accept payments online with ease
+            </h2>
+            <p class="max-w-md mt-3">
+              Grow your business with the payment gateway that powers India’s
+              largest brands and even the Paytm App
+            </p>
+            <button
+              class="mt-8 bg-pyblue-100 hover:bg-pysky-100 text-white text-lg font-bold px-6 py-2 rounded-full transition-all after:content-['➞'] hover:after:content-['➞'] hover:after:ml-2"
+            >
+              learn more
+            </button>
+          </div>
+          <div class="lg:w-1/2 max-w-md">
+            <img
+              class="max-w-full pointer-events-none ml-auto"
+              src="./images/business-servicehero.png "
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          class="bg-slate-100 mt-8 container rounded-md flex flex-col-reverse justify-around lg:flex-row px-10 py-10 items-center"
+        >
+          <div class="sm:mt-6">
+            <h2
+              class="text-2xl md:text-3xl lg:text-4xl max-w-md font-bold mt-8"
+            >
+              In-shop payments powered by Paytm.
+            </h2>
+            <p class="max-w-md mt-3">
+              Millions of small & big businesses use Paytm to accept payments
+              anywhere any time with a wide range of solutions for all kind of
+              merchants
+            </p>
+            <button
+              class="mt-8 bg-pyblue-100 hover:bg-pysky-100 text-white text-lg font-bold px-6 py-2 rounded-full transition-all after:content-['➞'] hover:after:content-['➞'] hover:after:ml-2"
+            >
+              learn more
+            </button>
+          </div>
+          <div class="lg:w-1/2 max-w-md">
+            <img
+              class="max-w-full pointer-events-none ml-auto"
+              src="./images/inshop-payments.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- tools section -->
+    <section>
+      <div class="container mx-auto py-16">
+        <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold">
+          Business Services by Paytm
+        </h1>
+        <!-- business card group -->
+        <div
+          class="flex flex-col lg:flex-row justify-around lg:justify-between gap-2"
+        >
+          <!-- card-1 -->
+          <div class="flex flex-col p-4 lg:w-1/4 max-w-md mx-auto">
+            <img
+              class="max-w-full mx-auto"
+              src="./images/tools/dashboard.png"
+              alt=""
+            />
+            <h2 class="text-xl md:text-2xl font-bold mt-8">
+              POS Billing Software
+            </h2>
+            <p class="mt-4">Say Hello to Smart Retail Business Management</p>
+            <a
+              class="mt-4 font-bold hover:after:content-['→'] hover:after:ml-2 transition-all"
+              href="#"
+              >Learn more</a
+            >
+          </div>
+          <!-- card-2 -->
+          <div class="flex flex-col p-4 mx-auto lg:w-1/4 max-w-md">
+            <img
+              class="max-w-full mx-auto"
+              src="./images/tools/business app.png"
+              alt=""
+            />
+            <h2 class="text-xl md:text-2xl font-bold mt-8">
+              Paytm for Business App
+            </h2>
+            <p class="mt-4">
+              Everything you need to manage your business on your phone
+            </p>
+            <a
+              class="mt-4 font-bold hover:after:content-['→'] hover:after:ml-2 transition-all"
+              href="#"
+              >Learn more</a
+            >
+          </div>
+          <!-- card-3 -->
+          <div class="flex flex-col p-4 mx-auto lg:w-1/4 max-w-md">
+            <img
+              class="max-w-full mx-auto"
+              src="./images/tools/advertise.png"
+              alt=""
+            />
+            <h2 class="text-xl md:text-2xl font-bold mt-8">
+              Advertise onPaytm
+            </h2>
+            <p class="mt-4">
+              Grow your business by advertising on India’s largest mobile
+              business
+            </p>
+            <a
+              class="mt-4 font-bold hover:after:content-['→'] hover:after:ml-2 transition-all"
+              href="#"
+              >Learn more</a
+            >
+          </div>
+          <!-- card-4 -->
+          <div class="flex flex-col p-4 mx-auto lg:w-1/4 max-w-md">
+            <img
+              class="max-w-full mx-auto"
+              src="./images/tools/khata.png"
+              alt=""
+            />
+            <h2 class="text-xl md:text-2xl font-bold mt-8">Business Khata</h2>
+            <p class="mt-4">Managing Khata made easy</p>
+            <a
+              class="mt-4 font-bold hover:after:content-['→'] hover:after:ml-2 transition-all"
+              href="#"
+              >Learn more</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section money & travel -->
+    <section class="bg-sky-100">
+      <div class="container mx-auto py-16">
+        <div
+          class="bg-white rounded-md p-10 flex flex-col lg:flex-row gap-4 justify-center"
+        >
+          <div class="flex flex-col gap-4 justify-center">
+            <div>
+              <img class="h-12" src="./images/paytm-moneylogo.png" alt="" />
+            </div>
+            <p class="max-w-xs lg:mt-0">
+              Get started on wealth creation journey with Zero brokerage fee &
+              no hidden charges.
+            </p>
+            <a class="text-pysky-100 hover:text-pyblue-100 font-bold" href="#"
+              >Learn more</a
+            >
+          </div>
+          <!-- card-group -->
+          <div
+            class="flex gap-4 justify-around lg:justify-between w-full flex-wrap lg:flex-nowrap"
+          >
+            <!-- card-1 -->
+            <div class="bg-pysky-100 rounded-md p-4 w-1/2 md:w-1/4 lg:w-1/5">
+              <img class="rounded-md" src="./images/money/stocks.png" alt="" />
+              <p class="text-center font-bold text-white mt-4">
+                Invest in <br />stocks
+              </p>
+            </div>
+            <!-- card-2 -->
+            <div class="bg-pysky-100 rounded-md p-4 w-1/2 md:w-1/4 lg:w-1/5">
+              <img class="rounded-md" src="./images/money/IPO.png" alt="" />
+              <p class="text-center font-bold text-white mt-4">Apply for IPO</p>
+            </div>
+            <!-- card-3 -->
+            <div class="bg-pysky-100 rounded-md p-4 w-1/2 md:w-1/4 lg:w-1/5">
+              <img class="rounded-md" src="./images/money/ETFs.png" alt="" />
+              <p class="text-center font-bold text-white mt-4">
+                Invest in <br />ETF
+              </p>
+            </div>
+            <!-- card-4 -->
+            <div class="bg-pysky-100 rounded-md p-4 w-1/2 md:w-1/4 lg:w-1/5">
+              <img class="rounded-md" src="./images/money/Gold.png" alt="" />
+              <p class="text-center font-bold text-white mt-4">Buy Gold</p>
+            </div>
+            <!-- card-5 -->
+            <div class="bg-pysky-100 rounded-md p-4 w-1/2 md:w-1/4 lg:w-1/5">
+              <img
+                class="rounded-md"
+                src="./images/money/Mutual funds.png"
+                alt=""
+              />
+              <p class="text-center font-bold text-white mt-4">
+                Invest in <br />Mutual funds
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- paytm travel -->
+        <div
+          class="bg-white mt-8 rounded-md p-10 flex flex-col lg:flex-row gap-4 justify-center"
+        >
+          <div class="flex flex-col gap-4 justify-center">
+            <div>
+              <img class="h-12" src="./images/paytm-travellogo.png" alt="" />
+            </div>
+            <p class="max-w-xs lg:mt-0">
+              Best travel solutions with quick ticket bookings, great offers and
+              easy refunds
+            </p>
+            <a class="text-pysky-100 hover:text-pyblue-100 font-bold" href="#"
+              >Learn more</a
+            >
+          </div>
+          <!-- card-group -->
+          <div
+            class="flex gap-4 justify-around lg:justify-between w-full flex-wrap lg:flex-nowrap"
+          >
+            <!-- card-1 -->
+            <div class="bg-pysky-100 rounded-md p-4 w-1/2 md:w-1/4 lg:w-1/5">
+              <img
+                class="w-4/5 mx-auto"
+                src="./images/travel/flights.png"
+                alt=""
+              />
+              <p class="font-bold text-white mt-4">Flat 14% Cashback</p>
+              <p class="text-xs font-bold mt-2 text-white">
+                With Code <br />
+                WELCOMEFLIGHT
+              </p>
+            </div>
+            <!-- card-2 -->
+            <div class="bg-pysky-100 rounded-md p-4 w-1/2 md:w-1/4 lg:w-1/5">
+              <img
+                class="w-4/5 mx-auto"
+                src="./images/travel/refund.png"
+                alt=""
+              />
+              <p class="font-bold text-white mt-4">100% Refund</p>
+              <p class="text-xs font-bold mt-2 text-white">
+                With Paytm's <br />
+                Cancellation protect
+              </p>
+            </div>
+            <!-- card-3 -->
+            <div class="bg-pysky-100 rounded-md p-4 w-1/2 md:w-1/4 lg:w-1/5">
+              <img
+                class="w-4/5 mx-auto"
+                src="./images/travel/cashback.png"
+                alt=""
+              />
+              <p class="font-bold text-white mt-4">Flat 10% Cashback</p>
+              <p class="text-xs font-bold mt-2 text-white">
+                With Code <br />
+                HAPPYBUS
+              </p>
+            </div>
+            <!-- card-4 -->
+            <div class="bg-pysky-100 rounded-md p-4 w-1/2 md:w-1/4 lg:w-1/5">
+              <img
+                class="w-4/5 mx-auto"
+                src="./images/travel/sanitised bus.png"
+                alt=""
+              />
+              <p class="font-bold text-white mt-4">Sanitized bus</p>
+              <p class="text-xs font-bold mt-2 text-white">
+                With safety+ <br />
+                HAPPYBUS
+              </p>
+            </div>
+            <!-- card-5 -->
+            <div class="bg-pysky-100 rounded-md p-4 w-1/2 md:w-1/4 lg:w-1/5">
+              <img
+                class="w-4/5 mx-auto"
+                src="./images/travel/hassel free.png"
+                alt=""
+              />
+              <p class="font-bold text-white mt-4">Hassle free</p>
+              <p class="text-xs font-bold mt-2 text-white">
+                Tickets <br />
+                Booking
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- download section -->
+    <section class="bg-slate-100">
+      <div class="container mx-auto py-16 border-b-2">
+        <div class="flex flex-col lg:flex-row lg:justify-between">
+          <div class="flex flex-col md:flex-row gap-4 md:items-center">
+            <div>
+              <p class="font-bold">
+                Download Paytm App <br />
+                to Pay from anywhere
+              </p>
+            </div>
+            <img class="h-10" src="./images/appstore.svg" alt="" />
+            <img class="h-10" src="./images/playstore.svg" alt="" />
+          </div>
+          <div class="flex flex-row gap-4 items-center">
+            <i class="bx bxl-twitter text-4xl text-gray-500"></i>
+            <i class="bx bxl-instagram-alt text-4xl text-gray-500"></i>
+            <i class="bx bxl-facebook text-4xl text-gray-500"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- faq section -->
+    <section class="bg-slate-100">
+      <div class="container mx-auto py-16">
+        <h2 class="text-xl md:text-2xl font-bold mb-8">
+          FAQs
+        </h2>
+        <input class="peer hidden" type="checkbox" name="" id="checkbox">
+        <label class="flex items-center font-bold text-pysky-100 hover:text-pyblue-100" for="checkbox">
+          <i class='bx bx-plus text-xl font-bold' ></i> More about Paytm.
+        </label>
+        <div class="h-0 peer-checked:h-screen overflow-hidden transition-all">
+         
+          <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id atque necessitatibus nam quisquam repellendus numquam iusto sunt maiores odio porro!</p>
+        </div>
+      </div>
+
+    </section>
+    <div class="h-4 bg-pysky-100"></div>
+    <div class="h-4 bg-pyblue-100"></div>
+
+</html>

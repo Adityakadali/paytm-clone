@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply flex flex-col hover:bg-pysky-200 py-5 pl-5 w-36 rounded-xl shadow-md;
+  }
+}
